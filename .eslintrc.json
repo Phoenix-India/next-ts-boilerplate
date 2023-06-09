@@ -1,0 +1,33 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "impliedStrict": true
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": ["next/core-web-vitals", "airbnb", "prettier"],
+  "plugins": [
+    "prettier",
+    "cypress",
+    "html",
+    "import",
+    "jest",
+    "jsx-a11y",
+    "react",
+    "react-hooks",
+    "security",
+    "sonarjs",
+    "xss"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".tsx", ".ts"]
+      }
+    ]
+  }
+}
